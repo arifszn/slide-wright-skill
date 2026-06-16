@@ -23,13 +23,6 @@ https://github.com/user-attachments/assets/2c7186ea-44dd-4271-9530-2b581782abde
 - **Export to PDF** — a static handout straight from the browser.
 - **Deploy to a live URL** — publish to a free static host (Surge, Vercel, or Netlify) and share a link that works on any device.
 
-## Using the deck
-
-- **Navigate:** arrow keys, space, or swipe.
-- **Export PDF:** ask the agent to export it, or do it yourself — open the deck with `?print-pdf` at the end of the URL, then Print → Save as PDF.
-- **Share online:** ask the agent to deploy it — pick Surge, Vercel, or Netlify and get a live link.
-- **Customize:** the theme colors live in the `:root` CSS variables at the top of the file; fonts are in the `<link>` tag.
-
 ## Keyboard shortcuts
 
 | Key | Action |
