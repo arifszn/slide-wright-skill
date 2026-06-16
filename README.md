@@ -1,10 +1,10 @@
 # slide-wright-skill
 
-Generate animated slide decks with AI agent skill.
+Generate beautiful, unique slide decks with AI agent skill.
 
 **[View Example →](https://slide-wright-skill.surge.sh)**
 
-https://github.com/user-attachments/assets/8d5629cb-e8e7-440c-abf0-728e619ded46
+https://github.com/user-attachments/assets/2c7186ea-44dd-4271-9530-2b581782abde
 
 ## How it works
 
