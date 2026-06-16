@@ -38,10 +38,17 @@ https://github.com/user-attachments/assets/2c7186ea-44dd-4271-9530-2b581782abde
 
 ### Claude Code (Plugin Marketplace)
 
-```bash
-/plugin marketplace add arifszn/slide-wright-skill
-/plugin install slide-wright-skill
-```
+1. Register the marketplace:
+
+   ```bash
+   /plugin marketplace add arifszn/slide-wright-skill
+   ```
+
+2. Install the plugin from this marketplace:
+
+   ```bash
+   /plugin install slide-wright-skill
+   ```
 
 ### Other agents (Codex, OpenCode, Antigravity, Gemini, Cursor, …)
 

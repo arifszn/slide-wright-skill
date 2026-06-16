@@ -10,10 +10,17 @@ So installation is always the same three steps: **clone → copy the `slide-wrig
 
 ### Plugin marketplace (recommended)
 
-```bash
-/plugin marketplace add arifszn/slide-wright-skill
-/plugin install slide-wright-skill
-```
+1. Register the marketplace:
+
+   ```bash
+   /plugin marketplace add arifszn/slide-wright-skill
+   ```
+
+2. Install the plugin from this marketplace:
+
+   ```bash
+   /plugin install slide-wright-skill
+   ```
 
 ### Standalone skill
 
