@@ -56,4 +56,4 @@ npx netlify deploy --dir=.deploy --prod
 1. Open the live URL once to confirm it renders (right canvas, fonts loaded).
 2. Give the user the URL and one line: it works on any device, share it anywhere.
 3. Delete the temp folder: `rm -rf .deploy`. Vercel and Netlify also drop a link folder in the working directory — `.vercel` or `.netlify` — that ties it to the created site. It's not junk: keeping it lets a later redeploy reuse the same site/URL without re-linking. Remove it (`rm -rf .vercel .netlify`) only when this was a throwaway and the user won't redeploy. Surge leaves nothing behind.
-4. Mention `?print-pdf` still works on the live URL for anyone who wants a PDF (`reference/export-pdf.md`).
+4. Mention `?print-pdf` still works on the live URL for anyone who wants a PDF (`references/export-pdf.md`).

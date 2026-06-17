@@ -15,12 +15,12 @@ A few things follow from it:
 
 - One proposal at a time, not a menu. If the user says no, throw the direction out and try a clearly different one.
 - Every theme is invented for the deck in front of you. There is no library of presets to pick from.
-- Aim for a deck that looks deliberately designed, not averaged. See `reference/design-aesthetics.md`.
+- Aim for a deck that looks deliberately designed, not averaged. See `references/design-aesthetics.md`.
 - The output is one HTML file with the theme CSS inline and the engine pulled from a CDN. No build step, no npm.
 
 ## The engine (keep this internal)
 
-Decks render with reveal.js loaded from a CDN, but that is an implementation detail the user never sees. Don't name reveal.js, "reveal," or any library in conversation, in the README, or anywhere in the deck itself. The user's vocabulary is slides, themes, and design. The library name appears only inside the generated `<link>` and `<script>` tags. `reference/deck-template.md` has the exact setup.
+Decks render with reveal.js loaded from a CDN, but that is an implementation detail the user never sees. Don't name reveal.js, "reveal," or any library in conversation, in the README, or anywhere in the deck itself. The user's vocabulary is slides, themes, and design. The library name appears only inside the generated `<link>` and `<script>` tags. `references/deck-template.md` has the exact setup.
 
 ## Editing a deck that already exists
 
@@ -47,10 +47,10 @@ Most decks lean one way. Pick the nearer extreme instead of splitting the differ
 
 ## Step 2 — Propose a look
 
-Read `reference/theme-generation.md` and `reference/design-aesthetics.md`, then:
+Read `references/theme-generation.md` and `references/design-aesthetics.md`, then:
 
 1. Invent a theme: a palette, a display/body type pairing from Fontshare or Google Fonts, a layout grammar, and one recurring visual device. Give it a name for your own use.
-2. Build a two-slide preview with `reference/deck-template.md` — a real title slide for this deck (its actual title, never a placeholder or a label like "demo"), and one content slide in the layout the deck will lean on. Write it as the real deck file in the working directory, named for the deck: `./<deck-slug>.html` (e.g. `./clickhouse.html`). This is the one file the whole deck grows into — there is no separate demo or scratch file.
+2. Build a two-slide preview with `references/deck-template.md` — a real title slide for this deck (its actual title, never a placeholder or a label like "demo"), and one content slide in the layout the deck will lean on. Write it as the real deck file in the working directory, named for the deck: `./<deck-slug>.html` (e.g. `./clickhouse.html`). This is the one file the whole deck grows into — there is no separate demo or scratch file.
 3. Open it in the browser.
 
 The preview has to read as two real slides from the finished deck, not a sample card. Keep all process language off the slide and out of the filename: no "demo," "preview," theme name, or "option A." The theme's name goes in your message to the user, never on a slide.
@@ -71,7 +71,7 @@ Do not build the full deck before you have a yes.
 
 ## Step 4 — Build the deck
 
-Keep building in the **same** `./<deck-slug>.html` the user just approved. The two approved slides stay as they are — append the rest around them; never regenerate them from scratch (that reintroduces drift the user already signed off against). Read `reference/motion-recipes.md` for the transition and reveal patterns.
+Keep building in the **same** `./<deck-slug>.html` the user just approved. The two approved slides stay as they are — append the rest around them; never regenerate them from scratch (that reintroduces drift the user already signed off against). Read `references/motion-recipes.md` for the transition and reveal patterns.
 
 - Use the exact approved palette, fonts, spacing, and device throughout. Don't let the style drift partway through.
 - Vary the *layouts* — title, section break, two-column, quote, comparison, closing — while keeping the one visual system.
@@ -87,16 +87,16 @@ Once the deck is built, look at it in a real browser render: no overflow, no ove
 
 1. Open the finished deck.
 2. Say where it lives, the theme name, and the slide count.
-3. Tell the user how to drive it: arrow keys, space, or swipe to move; **F** for fullscreen, **Esc** or **O** for the slide overview, **S** for the speaker view with notes, **?** for the full key list; add `?print-pdf` to the URL and print to save a PDF (`reference/export-pdf.md` has the steps); theme colors live in the `:root` variables, fonts in the `<link>`.
-4. Offer the obvious next moves: revise the content, change the theme, export a PDF, or **deploy to a live URL** to share it. If they want to deploy, read `reference/deploy.md` and let them pick the host (Surge, Vercel, or Netlify) — don't assume one.
+3. Tell the user how to drive it: arrow keys, space, or swipe to move; **F** for fullscreen, **Esc** or **O** for the slide overview, **S** for the speaker view with notes, **?** for the full key list; add `?print-pdf` to the URL and print to save a PDF (`references/export-pdf.md` has the steps); theme colors live in the `:root` variables, fonts in the `<link>`.
+4. Offer the obvious next moves: revise the content, change the theme, export a PDF, or **deploy to a live URL** to share it. If they want to deploy, read `references/deploy.md` and let them pick the host (Surge, Vercel, or Netlify) — don't assume one.
 
 ## Reference files
 
 Read these as you reach them, not all at once:
 
-- `reference/design-aesthetics.md` — what makes a deck look designed (Step 2)
-- `reference/theme-generation.md` — the procedure for inventing a theme (Step 2)
-- `reference/deck-template.md` — the HTML skeleton and engine setup (Steps 2 and 4)
-- `reference/motion-recipes.md` — transitions and reveals (Step 4)
-- `reference/export-pdf.md` — saving a deck as a PDF (Step 5)
-- `reference/deploy.md` — publishing the deck to a live URL (Step 5)
+- `references/design-aesthetics.md` — what makes a deck look designed (Step 2)
+- `references/theme-generation.md` — the procedure for inventing a theme (Step 2)
+- `references/deck-template.md` — the HTML skeleton and engine setup (Steps 2 and 4)
+- `references/motion-recipes.md` — transitions and reveals (Step 4)
+- `references/export-pdf.md` — saving a deck as a PDF (Step 5)
+- `references/deploy.md` — publishing the deck to a live URL (Step 5)
