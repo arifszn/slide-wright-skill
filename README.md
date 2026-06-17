@@ -33,6 +33,10 @@ https://github.com/user-attachments/assets/90959d0c-6c2e-4a7a-ab88-4a40a5ba06ac
 | B / . | Pause to a black screen |
 | ? | Show the full list of keys |
 
+## Export to PDF
+
+Just ask the agent to export the deck, and it walks you through it. To do it yourself: add `?print-pdf` to the deck URL, then open the print dialog (Cmd/Ctrl + P) and save as PDF. Choose Landscape, set margins to None, and turn on background graphics.
+
 ## Installation
 
 ### Claude Code (Plugin Marketplace)
