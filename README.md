@@ -23,20 +23,6 @@ https://github.com/user-attachments/assets/90959d0c-6c2e-4a7a-ab88-4a40a5ba06ac
 - **Export to PDF** — a static handout straight from the browser.
 - **Deploy to a live URL** — publish to a free static host (Surge, Vercel, or Netlify) and share a link that works on any device.
 
-## Keyboard shortcuts
-
-| Key | Action |
-| --- | --- |
-| F | Fullscreen |
-| Esc / O | Slide overview |
-| S | Speaker view with notes |
-| B / . | Pause to a black screen |
-| ? | Show the full list of keys |
-
-## Export to PDF
-
-Just ask the agent to export the deck, and it walks you through it. To do it yourself: add `?print-pdf` to the deck URL, then open the print dialog (Cmd/Ctrl + P) and save as PDF. Choose Landscape, set margins to None, and turn on background graphics.
-
 ## Installation
 
 ### Claude Code (Plugin Marketplace)
@@ -73,6 +59,20 @@ Make me a slide deck about <your topic>
 ```
 
 It builds a theme and a short preview first. Approve it and it generates the full deck. You can hand it rough notes or an outline instead of a topic, and ask it to revise the design or content anytime.
+
+## Keyboard shortcuts
+
+| Key | Action |
+| --- | --- |
+| F | Fullscreen |
+| Esc / O | Slide overview |
+| S | Speaker view with notes |
+| B / . | Pause to a black screen |
+| ? | Show the full list of keys |
+
+## Export to PDF
+
+Just ask the agent to export the deck, and it walks you through it. To do it yourself: add `?print-pdf` to the deck URL, then open the print dialog (Cmd/Ctrl + P) and save as PDF. Choose Landscape, set margins to None, and turn on background graphics.
 
 ## License
 
