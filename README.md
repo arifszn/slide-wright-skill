@@ -40,10 +40,10 @@ https://github.com/user-attachments/assets/90959d0c-6c2e-4a7a-ab88-4a40a5ba06ac
 </table>
 
 <table>
-<tr><th colspan="2"><i>"Make me a deck announcing our new feature, keep the design minimal"</i></th></tr>
+<tr><th colspan="2"><i>"Make me a deck announcing our new feature [placeholder], keep the design minimal"</i></th></tr>
 <tr>
-<td><img src="https://github.com/user-attachments/assets/917a1147-e17a-4f77-868c-be34be346a61" alt="Minimalist example slide 1" /></td>
-<td><img src="https://github.com/user-attachments/assets/78cda3b5-25b0-49e1-817b-59f346357e5f" alt="Minimalist example slide 2" /></td>
+<td><img src="https://github.com/user-attachments/assets/c7a20136-2325-417e-b2ce-63651b0b1db7" alt="Minimalist example slide 1" /></td>
+<td><img src="https://github.com/user-attachments/assets/6f85a9bb-9e0f-4f55-ae39-97f4ec52fedd" alt="Minimalist example slide 2" /></td>
 </tr>
 </table>
 
