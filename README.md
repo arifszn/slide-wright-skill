@@ -23,6 +23,14 @@ https://github.com/user-attachments/assets/90959d0c-6c2e-4a7a-ab88-4a40a5ba06ac
 - **Export to PDF** — a static handout straight from the browser.
 - **Deploy to a live URL** — publish to a free static host (Surge, Vercel, or Netlify) and share a link that works on any device.
 
+## Examples
+
+> "Generate a presentation for ClickHouse"
+
+| | |
+| --- | --- |
+| ![ClickHouse example slide 1](https://github.com/user-attachments/assets/15774809-cd91-4829-9520-0e722557f947) | ![ClickHouse example slide 2](https://github.com/user-attachments/assets/6b639629-b690-4e9a-945c-01ae0acdbb7f) |
+
 ## Installation
 
 ### Claude Code (Plugin Marketplace)
