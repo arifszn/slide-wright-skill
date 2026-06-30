@@ -2,9 +2,7 @@
 
 AI agent skill to generate beautiful, unique slide decks with reveal.js - new design for every prompt.
 
-**[View Example →](https://slidewright.netlify.app)**
-
-https://github.com/user-attachments/assets/90959d0c-6c2e-4a7a-ab88-4a40a5ba06ac
+https://github.com/user-attachments/assets/78d69739-0296-42a6-9c56-eed42108aab3
 
 ## How it works
 
@@ -13,7 +11,11 @@ https://github.com/user-attachments/assets/90959d0c-6c2e-4a7a-ab88-4a40a5ba06ac
 3. **You decide.** Love it? It builds the whole deck. Want a different vibe? It generates a fresh direction and shows a new preview. Repeat until it's right.
 4. **You get your deck.** A polished, self-contained presentation. Export it to PDF, or deploy it to a live URL for a link that works on any device.
 
-## Examples
+**[View Example →](https://slidewright.netlify.app)**
+
+https://github.com/user-attachments/assets/90959d0c-6c2e-4a7a-ab88-4a40a5ba06ac
+
+## More Examples
 
 <table>
 <tr><th colspan="2"><i>"Generate a presentation for ClickHouse, keep theme yellow"</i></th></tr>
